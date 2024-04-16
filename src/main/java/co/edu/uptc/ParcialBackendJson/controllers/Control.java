@@ -29,7 +29,7 @@ public class Control {
         return fs.filterChildhood(cs.unpackCsv());
     }
 
-    @GetMapping("/Adolscence")
+    @GetMapping("/Adolescence")
     public List<Person> showAdolescence() throws FileNotFoundException, IOException {
         return fs.filterAdolescents(cs.unpackCsv());
     }
